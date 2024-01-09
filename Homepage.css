@@ -1,0 +1,236 @@
+html{
+    background-image: url(img/gradient-black-background-with-cubes/6223732.jpg);
+    background-repeat: none;
+    background-size: cover;
+    
+    
+}
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: #1d1c1c;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%; /* Modifica la posizione del popup per farlo apparire sotto */
+    left: 50%;
+    margin-left: -120px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 50px;
+    background: transparent;
+    margin-top: 20px;
+    gap: 5px;
+}
+.text:hover{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.text img{
+   
+    background-color: transparent;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: -5px; /* Modifica la posizione dell'arrow */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup:hover .popuptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between ;
+   
+    
+}
+.trending{
+    color: white;
+    margin-top:3%;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.search-bar{
+    width: 350px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px; 
+
+}
+
+.search-bar input{
+    background: transparent;
+    flex : 1;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+.search-bar button{
+    background-color: transparent;
+    border:0;
+    outline: none;
+    border-radius: 50%;
+   
+   
+}
+.search-bar button img {
+    background-color: transparent;
+    
+   
+   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.profileSection{
+    display: flex;
+    align-items: center;
+   gap:20px;
+}
+
+.buttonCategoria{
+    display: flex;
+    align-items: center;
+}
+.carrello {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    margin-top: 10px; 
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+.login{
+    color:white;
+    gap:10px;
+}
+.profilo{
+    color:white;
+    gap:10px;
+
+}
+
+b{
+    background-color: transparent;
+}
+.profileSection button{
+    display: flex;
+    border:none;
+    outline: none;
+    background:transparent;
+    align-items: center; 
+    border-radius: 60px;
+     
+
+}
+.profileSection button img{
+    background-color: transparent;
+}
+
+ .login:hover{
+    background-color:  rgba(0, 128, 0, 0.2);
+}
+
+.profilo:hover{
+    background-color: rgba(255, 0, 0, 0.223)
+
+}
+.carrello:hover{
+    background-color: rgba(207, 144, 27, 0.21);
+}
+
+.color{
+    color:white;
+}
+.color1{
+    color:white;
+}
+.color {
+    width: 60px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    margin-top: 3%;
+    
+  
+
+}
+.color1{
+    width: 90px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    margin-top: 3%;
+}
+
